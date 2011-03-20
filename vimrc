@@ -1,3 +1,6 @@
+call pathogen#runtime_append_all_bundles()
+call pathogen#helptags()
+
 " ~/.vimrc (configuration file for vim only)
 " skeletons
 function! SKEL_spec()
