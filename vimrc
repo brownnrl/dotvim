@@ -51,5 +51,18 @@ set foldenable
 set foldmethod=marker
 set foldnestmax=10
 set number
+set hidden
+
+map <C-h> <C-w>h
+map <C-j> <C-w>j
+map <C-k> <C-w>k
+map <C-l> <C-w>l
+
+map 6 <C-w>>
+map 7 <C-w>-
+map 8 <C-w>+
+map 9 <C-w><
+
+map <z-l> zl
 
 " ~/.vimrc ends here
