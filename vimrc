@@ -47,11 +47,13 @@ syntax on
 
 let g:haddock_browser = "/usr/lib/chromium/chrome-wrapper"
 
+set nowrap
 set foldenable
 set foldmethod=marker
 set foldnestmax=10
 set number
 set hidden
+set backspace=2
 
 map <C-h> <C-w>h
 map <C-j> <C-w>j
@@ -64,5 +66,11 @@ map 8 <C-w>+
 map 9 <C-w><
 
 map <z-l> zl
+
+nmap <leader>l :set list!<CR>
+nmap <leader>t :set ts=4 sts=4 sw=4<CR>
+nmap <leader>T :set ts=8 sts=8 sw=8<CR>
+nmap <leader>e :set expandtab<CR>
+nmap <leader>E :set noexpandtab<CR>
 
 " ~/.vimrc ends here
